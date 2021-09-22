@@ -20,7 +20,7 @@ function Space() {
   return (
     <div>
       <h1>Space Component</h1>
-      <img src={space.hdurl} />
+      <img src={space.hdurl} alt="nasa-photos" />
       <h1>{space.title}</h1>
       <h2>{space.explanation}</h2>
       <h3>{space.date}</h3>
